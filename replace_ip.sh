@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Check if both arguments are provided
-if [ $# -ne 2 ]; then
-  echo "Usage: $0 <target-file> <ip-address>"
-  exit 1
-fi
-
 TARGET_FILE="$1"
 IP_ARG="$2"
 

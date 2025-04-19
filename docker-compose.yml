@@ -116,7 +116,7 @@ services:
 
   pgadmin:
       image: dpage/pgadmin4
-      container_name: pgadmin_container
+      container_name: pgadmin
       network_mode: host
       environment:
         PGADMIN_DEFAULT_EMAIL: admin@admin.com
